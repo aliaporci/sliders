@@ -21,17 +21,3 @@ puts "You should place #{orders} orders."
 puts "That's #{orders * sliders_per_order} sliders total!"
 puts "You'll have #{leftovers} left over." unless (eaters * extra_sliders) % 3 == 0
 puts "Hope y'all are hungry."
-
-
-
-# alternate math (but completely the same)
-#
-# if (3 + extra_sliders) * eaters % 3 == 0
-#   orders = (3 + extra_sliders) * eaters / 3
-#   puts "You should place #{orders} orders."
-#   puts "Hope you're hungry."
-# else
-#   orders = (3 + extra_sliders) * eaters / 3 + 1
-#   puts "You should place #{orders} orders."
-#   puts "Hope you're hungry."
-# end
